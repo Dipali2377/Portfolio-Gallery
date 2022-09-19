@@ -1,0 +1,51 @@
+body {
+  background-image: url(/Images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coloumn {
+  float: left;
+  width: 45%;
+  margin-left: 35px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 650px) {
+  .coloumn {
+    width: 100%;
+    display: block;
+  }
+}
+h1 {
+  text-align: center;
+
+  background-color: white;
+  padding: 7px 0;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid lightgray;
+  border-radius: 50px; */
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.container {
+  padding: 0 16px;
+}
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* .title {
+  color: gray;
+} */
+.nature-img {
+  margin-left: 400px;
+  height: 300px;
+}
